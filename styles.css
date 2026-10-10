@@ -427,7 +427,6 @@ footer { background: #0a1713; color: #e7eeeb; padding: 48px 0 22px; }
   0%,72%,100% { left:-45%; opacity:0; }
   80% { opacity:1; }
   94% { left:130%; opacity:0; }
-}
   to { transform: translateX(-48px); }
 }
 
