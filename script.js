@@ -16,7 +16,7 @@ bookingForm.addEventListener('submit', (event) => {
   const booking = Object.fromEntries(data.entries());
 
   // TODO: Replace this address with your real Sparkling Saturdays booking email.
-  const bookingEmail = 'hello@sparklingsaturdays.co.uk';
+  const bookingEmail = 'zoe@sparklingsaturdays.co.uk';
 
   const subject = encodeURIComponent(`Booking request: ${booking.service} - ${booking.name}`);
   const body = encodeURIComponent(
